@@ -1,13 +1,16 @@
-// AUTOR: 
-// FECHA: 
-// EMAIL: 
-// VERSION: 1.0
-// ASIGNATURA: Algoritmos y Estructuras de Datos
-// PRÁCTICA Nº: 2
-// COMENTARIOS: se indican entre [] las pautas de estilo aplicadas de
-//              "C++ Programming Style Guidelines"
-//              https://geosoft.no/development/cppstyle.html
-
+/**
+  * Universidad de La Laguna
+  * Escuela Superior de Ingeniería y Tecnología
+  * Grado en Ingeniería Informática
+  * Informática Básica
+  *
+  * @file vector_t.hpp
+  * @author Jose Dorta Luis alu0101414676@ull.edu.es
+  * @date 06 March 2021
+  * @brief programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos
+  * @bug ningún bug conocido
+  * 
+  */
 #pragma once
 
 #include <iostream>
