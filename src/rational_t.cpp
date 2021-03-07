@@ -167,7 +167,7 @@ rational_t rational_t::divide(const rational_t& r) const {
  */
 rational_t operator+(const rational_t& a, const rational_t& b) {
   int numerator, denominator;
-  numerator = (b.get_den() * a.get_num()) + (a.get_den * b.get_num());
+  numerator = (b.get_den() * a.get_num()) + (a.get_den() * b.get_num());
   denominator = a.get_den() * b.get_den();
   return rational_t(numerator, denominator);
 }
@@ -180,7 +180,7 @@ rational_t operator+(const rational_t& a, const rational_t& b) {
  */
 rational_t operator-(const rational_t& a, const rational_t& b) {
   int numerator, denominator;
-  numerator = (b.get_den() * a.get_num()) - (a.get_den * b.get_num());
+  numerator = (b.get_den() * a.get_num()) - (a.get_den() * b.get_num());
   denominator = a.get_den() * b.get_den();
   return rational_t(numerator, denominator);
 }

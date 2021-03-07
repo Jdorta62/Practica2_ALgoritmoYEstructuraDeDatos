@@ -1,0 +1,35 @@
+\hypertarget{main__p2_8cpp}{}\doxysection{main\+\_\+p2.\+cpp File Reference}
+\label{main__p2_8cpp}\index{main\_p2.cpp@{main\_p2.cpp}}
+
+
+programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}rational\+\_\+t.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vector\+\_\+t.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}matrix\+\_\+t.\+hpp\char`\"{}}\newline
+Include dependency graph for main\+\_\+p2.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main__p2_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main__p2_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica
+
+\begin{DoxyAuthor}{Author}
+Jose Dorta Luis \href{mailto:alu0101414676@ull.edu.es}{\texttt{ alu0101414676@ull.\+edu.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+06 March 2021 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]ningún bug conocido\end{DoxyRefDesc}

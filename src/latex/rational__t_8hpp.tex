@@ -1,0 +1,160 @@
+\hypertarget{rational__t_8hpp}{}\doxysection{rational\+\_\+t.\+hpp File Reference}
+\label{rational__t_8hpp}\index{rational\_t.hpp@{rational\_t.hpp}}
+
+
+programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+Include dependency graph for rational\+\_\+t.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{rational__t_8hpp_a002b2f4894492820fe708b1b7e7c5e70}\label{rational__t_8hpp_a002b2f4894492820fe708b1b7e7c5e70}} 
+\#define {\bfseries E\+P\+S\+I\+L\+ON}~1e-\/6
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{rational__t_8hpp_a80bd5e43c6a70c548ff54a0c3bde09e6}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador de insersión $<$$<$ que permite insertar en el flujo un objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+istream \& \mbox{\hyperlink{rational__t_8hpp_a127957f1db9285f6ffe68bcfe8cf7ebd}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador de extracción $>$$>$ que permite inicializar un objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} a partir de una secuencia de caracteres. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{rational__t_8hpp_a34d25b44033312f2e06261554ba3b04d}{operator+}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador + que permite la suma de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{rational__t_8hpp_a20fa0374053b7c285025371aa00f6076}{operator-\/}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador -\/ que permite la resta de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{rational__t_8hpp_a10f74ee6427f64115f87cbe6ac7f32cc}{operator$\ast$}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador $\ast$ que permite la multiplicación de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{rational__t_8hpp_a7520ac7ba18fa3fff14cb7be86047a15}{operator/}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador / que permite la división de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica
+
+\begin{DoxyAuthor}{Author}
+Jose Dorta Luis \href{mailto:alu0101414676@ull.edu.es}{\texttt{ alu0101414676@ull.\+edu.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+06 March 2021 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]ningún bug conocido\end{DoxyRefDesc}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{rational__t_8hpp_a10f74ee6427f64115f87cbe6ac7f32cc}\label{rational__t_8hpp_a10f74ee6427f64115f87cbe6ac7f32cc}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{a,  }\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador $\ast$ que permite la multiplicación de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & multiplicando de la operación. \\
+\hline
+{\em b} & multiplicador de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rational__t_8hpp_a34d25b44033312f2e06261554ba3b04d}\label{rational__t_8hpp_a34d25b44033312f2e06261554ba3b04d}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator+@{operator+}}
+\index{operator+@{operator+}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{a,  }\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador + que permite la suma de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & 1er sumando de la operación. \\
+\hline
+{\em b} & 2do sumando de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rational__t_8hpp_a20fa0374053b7c285025371aa00f6076}\label{rational__t_8hpp_a20fa0374053b7c285025371aa00f6076}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{a,  }\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador -\/ que permite la resta de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & minuendo de la operación. \\
+\hline
+{\em b} & sustraendo de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rational__t_8hpp_a7520ac7ba18fa3fff14cb7be86047a15}\label{rational__t_8hpp_a7520ac7ba18fa3fff14cb7be86047a15}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator/@{operator/}}
+\index{operator/@{operator/}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{a,  }\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador / que permite la división de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & dividendo de la operación. \\
+\hline
+{\em b} & divisor de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rational__t_8hpp_a80bd5e43c6a70c548ff54a0c3bde09e6}\label{rational__t_8hpp_a80bd5e43c6a70c548ff54a0c3bde09e6}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador de insersión $<$$<$ que permite insertar en el flujo un objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & variable donde se almacena la información para insertarla en el flujo. \\
+\hline
+{\em r} & objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} a insertar en el flujo. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rational__t_8hpp_a127957f1db9285f6ffe68bcfe8cf7ebd}\label{rational__t_8hpp_a127957f1db9285f6ffe68bcfe8cf7ebd}} 
+\index{rational\_t.hpp@{rational\_t.hpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!rational\_t.hpp@{rational\_t.hpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador de extracción $>$$>$ que permite inicializar un objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} a partir de una secuencia de caracteres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & variable donde se almacena al información de la extracción. \\
+\hline
+{\em r} & racional que va a ser inicializado. \\
+\hline
+\end{DoxyParams}

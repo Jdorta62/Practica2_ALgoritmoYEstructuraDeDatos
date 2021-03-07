@@ -200,15 +200,15 @@ inline int matrix_t<T>::pos(const int i, const int j) const {
  */
 template<class T>
 void matrix_t<T>::multiply(const matrix_t<T>& A, const matrix_t<T>& B) {
-  assert(A.get_n() == B.get_m);
-  v_.resize(A.get_m() * B.get_n());
-  for (int i{1}; i =< A.get_m(); ++i) {
-    for (int j{1}; j =< B.get_n(); ++j) {
+  assert(A.get_n() == B.get_m());
+  resize(A.get_m(), B.get_n());
+  for (int i{1}; i <= A.get_m(); ++i) {
+    for (int j{1}; j <= B.get_n(); ++j) {
       T result_of_operations{0};
-      for (int k{1}; k =< B.get_m(); ++k) {
+      for (int k{1}; k <= B.get_m(); ++k) {
         result_of_operations = result_of_operations + (A.at(i,k)*B.at(k,j));
       }
-      v_[pos(i,j)] = result_of_operations;
+      at(i,j) = result_of_operations;
     }
   }
 }

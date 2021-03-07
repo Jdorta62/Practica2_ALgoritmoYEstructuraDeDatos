@@ -1,0 +1,159 @@
+\hypertarget{classvector__t}{}\doxysection{vector\+\_\+t$<$ T $>$ Class Template Reference}
+\label{classvector__t}\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classvector__t_a1b574675f370c6e8ca1ffa1e6c760e82}{vector\+\_\+t}} (const int=0)
+\begin{DoxyCompactList}\small\item\em constructor de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvector__t_aea862b224c217c1080ea72d8d6ffed5a}\label{classvector__t_aea862b224c217c1080ea72d8d6ffed5a}} 
+\mbox{\hyperlink{classvector__t_aea862b224c217c1080ea72d8d6ffed5a}{$\sim$vector\+\_\+t}} ()
+\begin{DoxyCompactList}\small\item\em destructor de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvector__t_a239516986f1c608d1836bd31c2bd5e30}\label{classvector__t_a239516986f1c608d1836bd31c2bd5e30}} 
+void \mbox{\hyperlink{classvector__t_a239516986f1c608d1836bd31c2bd5e30}{resize}} (const int)
+\begin{DoxyCompactList}\small\item\em método que permite cambiar el tamaño del vector y a su vez reservar la memoria necesaria. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classvector__t_a25f36650ee198fb731fbc804d179b37c}{get\+\_\+val}} (const int) const
+\begin{DoxyCompactList}\small\item\em método que permite conocer el valor de una posición prederteminada del vector. (getter) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvector__t_a43b02045137da50d6fefbe6c466a9120}\label{classvector__t_a43b02045137da50d6fefbe6c466a9120}} 
+int \mbox{\hyperlink{classvector__t_a43b02045137da50d6fefbe6c466a9120}{get\+\_\+size}} (void) const
+\begin{DoxyCompactList}\small\item\em método que retorna el tamaño del vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classvector__t_a9a6ad9d61d4be782d136e486bc5d46b4}{set\+\_\+val}} (const int, const T)
+\begin{DoxyCompactList}\small\item\em permite dale un valor predeterminado a una posición determinada del vector. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classvector__t_a17298d70babc63ae96d134506b01568e}{at}} (const int)
+\begin{DoxyCompactList}\small\item\em getter-\/setter de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classvector__t_ab2d9aa719f4c303918deed9360dae846}{operator\mbox{[}$\,$\mbox{]}}} (const int)
+\begin{DoxyCompactList}\small\item\em sobrecarga del operador \mbox{[}\mbox{]} \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classvector__t_a01fa641865ec7b579aa08b78076150d2}{at}} (const int) const
+\begin{DoxyCompactList}\small\item\em getter constante de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classvector__t_a44c63cecf539ce2b71cabe0d372f210f}{operator\mbox{[}$\,$\mbox{]}}} (const int) const
+\begin{DoxyCompactList}\small\item\em sobrecarga constante del operador \mbox{[}\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvector__t_a3ed03ae0561564d89ba6e728090fda15}\label{classvector__t_a3ed03ae0561564d89ba6e728090fda15}} 
+void \mbox{\hyperlink{classvector__t_a3ed03ae0561564d89ba6e728090fda15}{write}} (ostream \&=cout) const
+\begin{DoxyCompactList}\small\item\em permite imprimir en pantalla un objeto de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvector__t_ac2f2caafd72c057c3eaf7ddb532ea0a5}\label{classvector__t_ac2f2caafd72c057c3eaf7ddb532ea0a5}} 
+void \mbox{\hyperlink{classvector__t_ac2f2caafd72c057c3eaf7ddb532ea0a5}{read}} (istream \&=cin)
+\begin{DoxyCompactList}\small\item\em permite leer e inicializar un objeto \mbox{\hyperlink{classvector__t}{vector\+\_\+t}} a partir de una secuencia de caracteres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classvector__t_a1b574675f370c6e8ca1ffa1e6c760e82}\label{classvector__t_a1b574675f370c6e8ca1ffa1e6c760e82}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!vector\_t@{vector\_t}}
+\index{vector\_t@{vector\_t}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{vector\_t()}{vector\_t()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::\mbox{\hyperlink{classvector__t}{vector\+\_\+t}} (\begin{DoxyParamCaption}\item[{const int}]{n = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+constructor de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & tamaño del vector. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classvector__t_a17298d70babc63ae96d134506b01568e}\label{classvector__t_a17298d70babc63ae96d134506b01568e}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!at@{at}}
+\index{at@{at}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::at (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption})}
+
+
+
+getter-\/setter de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector que se quiere conocer o sobreescribir. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvector__t_a01fa641865ec7b579aa08b78076150d2}\label{classvector__t_a01fa641865ec7b579aa08b78076150d2}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!at@{at}}
+\index{at@{at}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::at (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+getter constante de la clase \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector que se quiere conocer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvector__t_a25f36650ee198fb731fbc804d179b37c}\label{classvector__t_a25f36650ee198fb731fbc804d179b37c}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!get\_val@{get\_val}}
+\index{get\_val@{get\_val}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get\_val()}{get\_val()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::get\+\_\+val (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+método que permite conocer el valor de una posición prederteminada del vector. (getter) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector cuyo valor se quiere conocer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvector__t_ab2d9aa719f4c303918deed9360dae846}\label{classvector__t_ab2d9aa719f4c303918deed9360dae846}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption})}
+
+
+
+sobrecarga del operador \mbox{[}\mbox{]} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvector__t_a44c63cecf539ce2b71cabe0d372f210f}\label{classvector__t_a44c63cecf539ce2b71cabe0d372f210f}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+sobrecarga constante del operador \mbox{[}\mbox{]} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classvector__t_a9a6ad9d61d4be782d136e486bc5d46b4}\label{classvector__t_a9a6ad9d61d4be782d136e486bc5d46b4}} 
+\index{vector\_t$<$ T $>$@{vector\_t$<$ T $>$}!set\_val@{set\_val}}
+\index{set\_val@{set\_val}!vector\_t$<$ T $>$@{vector\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{set\_val()}{set\_val()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classvector__t}{vector\+\_\+t}}$<$ T $>$\+::set\+\_\+val (\begin{DoxyParamCaption}\item[{const int}]{i,  }\item[{const T}]{d }\end{DoxyParamCaption})}
+
+
+
+permite dale un valor predeterminado a una posición determinada del vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del vector a la que se le quiere dar valor. \\
+\hline
+{\em d} & nuevo valor que a tener la posición i del vector. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{vector__t_8hpp}{vector\+\_\+t.\+hpp}}\end{DoxyCompactItemize}

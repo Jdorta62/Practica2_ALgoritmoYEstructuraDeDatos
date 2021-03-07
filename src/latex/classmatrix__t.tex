@@ -1,0 +1,171 @@
+\hypertarget{classmatrix__t}{}\doxysection{matrix\+\_\+t$<$ T $>$ Class Template Reference}
+\label{classmatrix__t}\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmatrix__t_abbc240488ad1be4deb69c96faeb615c9}{matrix\+\_\+t}} (const int=0, const int=0)
+\begin{DoxyCompactList}\small\item\em constructor de la clase matrix\+:t \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmatrix__t_aa27bbbbcc98a6d5dff25c3fce1df3f83}\label{classmatrix__t_aa27bbbbcc98a6d5dff25c3fce1df3f83}} 
+\mbox{\hyperlink{classmatrix__t_aa27bbbbcc98a6d5dff25c3fce1df3f83}{$\sim$matrix\+\_\+t}} ()
+\begin{DoxyCompactList}\small\item\em destructor de la clase \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmatrix__t_a5fd6f4581f944bfcf8f3af12f892cf91}{resize}} (const int, const int)
+\begin{DoxyCompactList}\small\item\em funcion que permite darle una nueva dimensión a la matriz \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmatrix__t_a1f64389d5a41ecb8669ad13f700489f1}\label{classmatrix__t_a1f64389d5a41ecb8669ad13f700489f1}} 
+int \mbox{\hyperlink{classmatrix__t_a1f64389d5a41ecb8669ad13f700489f1}{get\+\_\+m}} (void) const
+\begin{DoxyCompactList}\small\item\em método que retorna el número de filas de un objeto \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} (getter) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmatrix__t_ab507a8063682fb4763a82947f632dd73}\label{classmatrix__t_ab507a8063682fb4763a82947f632dd73}} 
+int \mbox{\hyperlink{classmatrix__t_ab507a8063682fb4763a82947f632dd73}{get\+\_\+n}} (void) const
+\begin{DoxyCompactList}\small\item\em método que retorna el número de columnas de un objeto \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} (getter) \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classmatrix__t_adf8bc43c4c7d00cd1ad9c14106ec5870}{at}} (const int, const int)
+\begin{DoxyCompactList}\small\item\em método que retorna el valor de una posición determinada dentro de la matriz y puede sobreescribir este valor \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classmatrix__t_a103235b3419f55ba97cd9a69c3b97d69}{operator()}} (const int, const int)
+\begin{DoxyCompactList}\small\item\em tiene la misma funcion del método \char`\"{}at\char`\"{} pero se logra a traves de la sobrecarga del operador () \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classmatrix__t_a9677a1785d1184337f0b3fe673863538}{at}} (const int, const int) const
+\begin{DoxyCompactList}\small\item\em método que retorna el valor de una posición determinada dentro de la matriz (no permite sobreescribir) \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classmatrix__t_a16f992c264d270992d32683bc419101a}{operator()}} (const int, const int) const
+\begin{DoxyCompactList}\small\item\em tiene la misma funcion del método \char`\"{}at\char`\"{} pero se logra a traves de la sobrecarga del operador () (no permite sobreescribir) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmatrix__t_a3df2929fd182f6af3484508fabc005ea}{multiply}} (const \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$ \&, const \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$ \&)
+\begin{DoxyCompactList}\small\item\em método de la clase \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} que retorna el resultado de la multiplicación de 2 matrices \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmatrix__t_a379895dde328d9abe6079d33ea837ebe}\label{classmatrix__t_a379895dde328d9abe6079d33ea837ebe}} 
+void {\bfseries write} (ostream \&=cout) const
+\item 
+\mbox{\Hypertarget{classmatrix__t_a90044767ee883d2fa229ea1e212d555b}\label{classmatrix__t_a90044767ee883d2fa229ea1e212d555b}} 
+void {\bfseries read} (istream \&=cin)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmatrix__t_abbc240488ad1be4deb69c96faeb615c9}\label{classmatrix__t_abbc240488ad1be4deb69c96faeb615c9}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!matrix\_t@{matrix\_t}}
+\index{matrix\_t@{matrix\_t}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{matrix\_t()}{matrix\_t()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::\mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} (\begin{DoxyParamCaption}\item[{const int}]{m = {\ttfamily 0},  }\item[{const int}]{n = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+constructor de la clase matrix\+:t 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & filas de la matriz \\
+\hline
+{\em n} & columnas de la matriz \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmatrix__t_adf8bc43c4c7d00cd1ad9c14106ec5870}\label{classmatrix__t_adf8bc43c4c7d00cd1ad9c14106ec5870}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!at@{at}}
+\index{at@{at}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::at (\begin{DoxyParamCaption}\item[{const int}]{i,  }\item[{const int}]{j }\end{DoxyParamCaption})}
+
+
+
+método que retorna el valor de una posición determinada dentro de la matriz y puede sobreescribir este valor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & indica la fila donde se quiere saber el valor \\
+\hline
+{\em j} & indica la columna donde se quiere saber el valor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmatrix__t_a9677a1785d1184337f0b3fe673863538}\label{classmatrix__t_a9677a1785d1184337f0b3fe673863538}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!at@{at}}
+\index{at@{at}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::at (\begin{DoxyParamCaption}\item[{const int}]{i,  }\item[{const int}]{j }\end{DoxyParamCaption}) const}
+
+
+
+método que retorna el valor de una posición determinada dentro de la matriz (no permite sobreescribir) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & indica la fila donde se quiere saber el valor \\
+\hline
+{\em j} & indica la columna donde se quiere saber el valor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmatrix__t_a3df2929fd182f6af3484508fabc005ea}\label{classmatrix__t_a3df2929fd182f6af3484508fabc005ea}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!multiply@{multiply}}
+\index{multiply@{multiply}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$ \&}]{A,  }\item[{const \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$ \&}]{B }\end{DoxyParamCaption})}
+
+
+
+método de la clase \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}} que retorna el resultado de la multiplicación de 2 matrices 
+
+
+\begin{DoxyParams}{Parameters}
+{\em A} & primera matriz a multiplicar \\
+\hline
+{\em B} & segunda matriz a multiplicar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmatrix__t_a103235b3419f55ba97cd9a69c3b97d69}\label{classmatrix__t_a103235b3419f55ba97cd9a69c3b97d69}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{const int}]{i,  }\item[{const int}]{j }\end{DoxyParamCaption})}
+
+
+
+tiene la misma funcion del método \char`\"{}at\char`\"{} pero se logra a traves de la sobrecarga del operador () 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & fila donde se quiere saber el valor \\
+\hline
+{\em j} & columna donde se quiere saber el valor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmatrix__t_a16f992c264d270992d32683bc419101a}\label{classmatrix__t_a16f992c264d270992d32683bc419101a}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{const int}]{i,  }\item[{const int}]{j }\end{DoxyParamCaption}) const}
+
+
+
+tiene la misma funcion del método \char`\"{}at\char`\"{} pero se logra a traves de la sobrecarga del operador () (no permite sobreescribir) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & fila donde se quiere saber el valor \\
+\hline
+{\em j} & columna donde se quiere saber el valor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmatrix__t_a5fd6f4581f944bfcf8f3af12f892cf91}\label{classmatrix__t_a5fd6f4581f944bfcf8f3af12f892cf91}} 
+\index{matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!matrix\_t$<$ T $>$@{matrix\_t$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classmatrix__t}{matrix\+\_\+t}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const int}]{m,  }\item[{const int}]{n }\end{DoxyParamCaption})}
+
+
+
+funcion que permite darle una nueva dimensión a la matriz 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & cantidad de filas que se le quiere dar a la matriz \\
+\hline
+{\em n} & cantidad de columnas que se le quiere dar a la matriz \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{matrix__t_8hpp}{matrix\+\_\+t.\+hpp}}\end{DoxyCompactItemize}

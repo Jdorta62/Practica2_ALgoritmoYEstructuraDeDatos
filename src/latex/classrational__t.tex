@@ -1,0 +1,188 @@
+\hypertarget{classrational__t}{}\doxysection{rational\+\_\+t Class Reference}
+\label{classrational__t}\index{rational\_t@{rational\_t}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrational__t_aaac59bd559e17879e0c6f361e8f3e573}{rational\+\_\+t}} (const int=0, const int=1)
+\begin{DoxyCompactList}\small\item\em constructor de la clase \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_a1335de49a2ccdbc255026c1388b8aaa2}\label{classrational__t_a1335de49a2ccdbc255026c1388b8aaa2}} 
+int \mbox{\hyperlink{classrational__t_a1335de49a2ccdbc255026c1388b8aaa2}{get\+\_\+num}} () const
+\begin{DoxyCompactList}\small\item\em método que retorna el numerador de un objeto racional\+\_\+t (getter). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_a7d45b6b09931fd32000b8f98fc9f2dfa}\label{classrational__t_a7d45b6b09931fd32000b8f98fc9f2dfa}} 
+int \mbox{\hyperlink{classrational__t_a7d45b6b09931fd32000b8f98fc9f2dfa}{get\+\_\+den}} () const
+\begin{DoxyCompactList}\small\item\em método que retorna el denominador de un objeto racional\+\_\+t (getter). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_aae0a200baac39203db1654b4d2336cbc}\label{classrational__t_aae0a200baac39203db1654b4d2336cbc}} 
+void \mbox{\hyperlink{classrational__t_aae0a200baac39203db1654b4d2336cbc}{set\+\_\+num}} (const int)
+\begin{DoxyCompactList}\small\item\em método que permite inicializar directamente el numerador de un objeto racional\+\_\+t (setter). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_aa503da144b5e0156a4d7f9508ec5f7bd}\label{classrational__t_aa503da144b5e0156a4d7f9508ec5f7bd}} 
+void \mbox{\hyperlink{classrational__t_aa503da144b5e0156a4d7f9508ec5f7bd}{set\+\_\+den}} (const int)
+\begin{DoxyCompactList}\small\item\em método que permite inicializar directamente el denominador de un objeto racional\+\_\+t (setter). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_afb1c39608f69c00f9f331d33615f6803}\label{classrational__t_afb1c39608f69c00f9f331d33615f6803}} 
+double \mbox{\hyperlink{classrational__t_afb1c39608f69c00f9f331d33615f6803}{value}} (void) const
+\begin{DoxyCompactList}\small\item\em método que retorna el valor de la división del numerador entre el denominador. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_ab1f82e082dd87a801d29295216196765}\label{classrational__t_ab1f82e082dd87a801d29295216196765}} 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_ab1f82e082dd87a801d29295216196765}{opposite}} (void) const
+\begin{DoxyCompactList}\small\item\em retorna el racional cambiado de signo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_a8b6c1799cb3e3edf949ac90358724f9a}\label{classrational__t_a8b6c1799cb3e3edf949ac90358724f9a}} 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_a8b6c1799cb3e3edf949ac90358724f9a}{reciprocal}} (void) const
+\begin{DoxyCompactList}\small\item\em inicializa un racional inverso, partiendo de un racional previo que llamó a este método. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classrational__t_adcdb9b7d1bf436e42a14f2d6e6e731d4}{is\+\_\+equal}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const double precision=E\+P\+S\+I\+L\+ON) const
+\begin{DoxyCompactList}\small\item\em método que permite comparar 2 racionales y determinar si son iguales. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classrational__t_a82d59e523eb71a34ea7484bca7758fdf}{is\+\_\+greater}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const double precision=E\+P\+S\+I\+L\+ON) const
+\begin{DoxyCompactList}\small\item\em método que permite comparar 2 racionales y determinar si es mayor que r. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classrational__t_a215a76d86003b60b1e0e51d40f2efb54}{is\+\_\+less}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&, const double precision=E\+P\+S\+I\+L\+ON) const
+\begin{DoxyCompactList}\small\item\em método que permite comparar 2 racionales y determinar si son si es mayor que r. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_a3ff3cea72ce895decd18556022eab3d1}{add}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&) const
+\begin{DoxyCompactList}\small\item\em metodo que retorna la suma algebraica de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_a8abd0d5a6e5c402a3e8d2bed090aa6b2}{substract}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&) const
+\begin{DoxyCompactList}\small\item\em metodo que retorna la resta algebraica de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_aa8d28f74e3bca4e092a233fcbfcce953}{multiply}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&) const
+\begin{DoxyCompactList}\small\item\em metodo que retorna la multiplicación de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \mbox{\hyperlink{classrational__t_a7059101da8b4d539d8ca1711e31a6d90}{divide}} (const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&) const
+\begin{DoxyCompactList}\small\item\em metodo que retorna la división de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_a84c31df80bd674b1469b5a72a67f70d5}\label{classrational__t_a84c31df80bd674b1469b5a72a67f70d5}} 
+void \mbox{\hyperlink{classrational__t_a84c31df80bd674b1469b5a72a67f70d5}{write}} (ostream \&os=cout) const
+\begin{DoxyCompactList}\small\item\em permite imprimir en pantalla un objeto de la clase \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrational__t_a22c146c8148c144b3986fdcaaea59046}\label{classrational__t_a22c146c8148c144b3986fdcaaea59046}} 
+void \mbox{\hyperlink{classrational__t_a22c146c8148c144b3986fdcaaea59046}{read}} (istream \&is=cin)
+\begin{DoxyCompactList}\small\item\em permite leer e inicializar un objeto \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} a partir de una secuencia de caracteres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrational__t_aaac59bd559e17879e0c6f361e8f3e573}\label{classrational__t_aaac59bd559e17879e0c6f361e8f3e573}} 
+\index{rational\_t@{rational\_t}!rational\_t@{rational\_t}}
+\index{rational\_t@{rational\_t}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{rational\_t()}{rational\_t()}}
+{\footnotesize\ttfamily rational\+\_\+t\+::rational\+\_\+t (\begin{DoxyParamCaption}\item[{const int}]{n = {\ttfamily 0},  }\item[{const int}]{d = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+constructor de la clase \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & numerador del objeto racional \\
+\hline
+{\em d} & denominador del objeto racional \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrational__t_a3ff3cea72ce895decd18556022eab3d1}\label{classrational__t_a3ff3cea72ce895decd18556022eab3d1}} 
+\index{rational\_t@{rational\_t}!add@{add}}
+\index{add@{add}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} rational\+\_\+t\+::add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption}) const}
+
+
+
+metodo que retorna la suma algebraica de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & sumando de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_a7059101da8b4d539d8ca1711e31a6d90}\label{classrational__t_a7059101da8b4d539d8ca1711e31a6d90}} 
+\index{rational\_t@{rational\_t}!divide@{divide}}
+\index{divide@{divide}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{divide()}{divide()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} rational\+\_\+t\+::divide (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption}) const}
+
+
+
+metodo que retorna la división de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & 2do factor de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_adcdb9b7d1bf436e42a14f2d6e6e731d4}\label{classrational__t_adcdb9b7d1bf436e42a14f2d6e6e731d4}} 
+\index{rational\_t@{rational\_t}!is\_equal@{is\_equal}}
+\index{is\_equal@{is\_equal}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{is\_equal()}{is\_equal()}}
+{\footnotesize\ttfamily bool rational\+\_\+t\+::is\+\_\+equal (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r,  }\item[{const double}]{precision = {\ttfamily EPSILON} }\end{DoxyParamCaption}) const}
+
+
+
+método que permite comparar 2 racionales y determinar si son iguales. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & 2do racional con el que se va a comparar. \\
+\hline
+{\em precision} & determinará la precisión a partir de la cual se consideraran 2 racionales iguales. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_a82d59e523eb71a34ea7484bca7758fdf}\label{classrational__t_a82d59e523eb71a34ea7484bca7758fdf}} 
+\index{rational\_t@{rational\_t}!is\_greater@{is\_greater}}
+\index{is\_greater@{is\_greater}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{is\_greater()}{is\_greater()}}
+{\footnotesize\ttfamily bool rational\+\_\+t\+::is\+\_\+greater (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r,  }\item[{const double}]{precision = {\ttfamily EPSILON} }\end{DoxyParamCaption}) const}
+
+
+
+método que permite comparar 2 racionales y determinar si es mayor que r. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & 2do racional con el que se va a comparar. \\
+\hline
+{\em precision} & determinará la precisión a partir de la cual se considerará el racional mayor que \char`\"{}r\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_a215a76d86003b60b1e0e51d40f2efb54}\label{classrational__t_a215a76d86003b60b1e0e51d40f2efb54}} 
+\index{rational\_t@{rational\_t}!is\_less@{is\_less}}
+\index{is\_less@{is\_less}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{is\_less()}{is\_less()}}
+{\footnotesize\ttfamily bool rational\+\_\+t\+::is\+\_\+less (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r,  }\item[{const double}]{precision = {\ttfamily EPSILON} }\end{DoxyParamCaption}) const}
+
+
+
+método que permite comparar 2 racionales y determinar si son si es mayor que r. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & 2do racional con el que se va a comparar. \\
+\hline
+{\em precision} & determinará la precisión a partir de la cual se considerará el racional mayor que \char`\"{}r\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_aa8d28f74e3bca4e092a233fcbfcce953}\label{classrational__t_aa8d28f74e3bca4e092a233fcbfcce953}} 
+\index{rational\_t@{rational\_t}!multiply@{multiply}}
+\index{multiply@{multiply}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} rational\+\_\+t\+::multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption}) const}
+
+
+
+metodo que retorna la multiplicación de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & 2do factor de la operación. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrational__t_a8abd0d5a6e5c402a3e8d2bed090aa6b2}\label{classrational__t_a8abd0d5a6e5c402a3e8d2bed090aa6b2}} 
+\index{rational\_t@{rational\_t}!substract@{substract}}
+\index{substract@{substract}!rational\_t@{rational\_t}}
+\doxysubsubsection{\texorpdfstring{substract()}{substract()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} rational\+\_\+t\+::substract (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classrational__t}{rational\+\_\+t}} \&}]{r }\end{DoxyParamCaption}) const}
+
+
+
+metodo que retorna la resta algebraica de 2 objetos \mbox{\hyperlink{classrational__t}{rational\+\_\+t}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & sustraendo de la operación. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{rational__t_8hpp}{rational\+\_\+t.\+hpp}}\item 
+\mbox{\hyperlink{rational__t_8cpp}{rational\+\_\+t.\+cpp}}\end{DoxyCompactItemize}
