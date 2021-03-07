@@ -4,7 +4,7 @@
   * Grado en Ingeniería Informática
   * Informática Básica
   *
-  * @file funciones_racionale.cc
+  * @file main_p2.cpp
   * @author Jose Dorta Luis alu0101414676@ull.edu.es
   * @date 06 March 2021
   * @brief programa proporcionado por el profesorado para realizar la práctica 2 de Algoritmos y estructura de datos
